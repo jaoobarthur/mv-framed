@@ -71,5 +71,54 @@ const catalog = [
     answers: ["whats up", "what's up"],
     imageFolder: "images/whats-up/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+  },
+  
+  {
+    id: "because-i-liked-a-boy",
+    title: "because i liked a boy",
+    artist: "Sabrina Carpenter",
+    answers: ["because i liked a boy"],
+    imageFolder: "images/because-i-liked-a-boy/",
+    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+  },
+  {
+    id: "new-rules",
+    title: "New Rules",
+    artist: "Dua Lipa",
+    answers: ["new rules"],
+    imageFolder: "images/new-rules/",
+    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+  },
+  {
+    id: "baby-one-more-time",
+    title: "...Baby One More Time",
+    artist: "Britney Spears",
+    answers: ["baby one more time", "baby one more time britney"],
+    imageFolder: "images/baby-one-more-time/",
+    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+  },
+  {
+    id: "beautiful-things",
+    title: "Beautiful Things",
+    artist: "Benson Boone",
+    answers: ["beautiful things"],
+    imageFolder: "images/beautiful-things/",
+    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+  },
+  {
+    id: "uptown-funk",
+    title: "Uptown Funk",
+    artist: "Mark Ronson ft. Bruno Mars",
+    answers: ["uptown funk"],
+    imageFolder: "images/uptown-funk/",
+    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+  },
+  {
+    id: "take-on-me",
+    title: "Take On Me",
+    artist: "a-ha",
+    answers: ["take on me"],
+    imageFolder: "images/take-on-me/",
+    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
   }
 ];
