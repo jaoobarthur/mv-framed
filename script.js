@@ -28,6 +28,13 @@ const daysPassed = Math.floor(
 const currentMV = daysPassed < catalog.length
   ? catalog[daysPassed]
   : null;
+if (!currentMV) {
+  document.body.innerHTML = `
+    <h1>OnRepeat</h1>
+    <h2>New challenges soon! 💿</h2>
+    <p>We're preparing more frames for you!.</p>
+  `;
+}
 
 function showFrame(number) {
   currentFrame = number;
