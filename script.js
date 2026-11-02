@@ -15,7 +15,7 @@ const suggestions = document.getElementById("suggestions");
 let selectedSuggestion = -1;
 
 // Desafio diário: um novo MV por dia, em sequência.
-const startDate = new Date(2026, 11, 2); // 02/11/2026
+const startDate = new Date(2026, 10, 2); // 02/11/2026
 const today = new Date();
 
 startDate.setHours(0, 0, 0, 0);
@@ -28,17 +28,14 @@ const daysPassed = Math.floor(
 const currentMV = daysPassed < catalog.length
   ? catalog[daysPassed]
   : null;
+
 if (!currentMV) {
   document.body.innerHTML = `
     <h1>OnRepeat</h1>
     <h2>New challenges soon! 💿</h2>
-    <p>We're preparing more frames for you!.</p>
+    <p>We're preparing more frames for you!</p>
   `;
-}
-
-if (!currentMV) {
-  throw new Error("Não há novos desafios disponíveis.");
-}
+} else {
 
 function showFrame(number) {
   currentFrame = number;
@@ -212,3 +209,5 @@ document.addEventListener("click", function(event) {
 });
 
 showFrame(1);
+
+}
