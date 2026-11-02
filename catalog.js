@@ -25,11 +25,18 @@ const catalog = [
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
   },
   {
-    id: "blank-space",
-    title: "Blank Space",
-    artist: "Taylor Swift",
-    answers: ["blank space"],
-    imageFolder: "images/blank-space/",
-    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
-  }
+  id: "blank-space",
+  title: "Blank Space",
+  artist: "Taylor Swift",
+  answers: ["blank space"],
+  imageFolder: "images/blank-space/",
+  frames: [
+    "001.jpg",
+    "002.jpg",
+    "003.jpg",
+    "004.jpg",
+    "005.jpg",
+    "006.jpg"
+  ]
+}
 ];
