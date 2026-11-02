@@ -36,6 +36,10 @@ if (!currentMV) {
   `;
 }
 
+if (!currentMV) {
+  throw new Error("Não há novos desafios disponíveis.");
+}
+
 function showFrame(number) {
   currentFrame = number;
   const fileName = currentMV.frames[number - 1];
