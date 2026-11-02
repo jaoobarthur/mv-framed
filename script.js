@@ -16,7 +16,7 @@ let selectedSuggestion = -1;
 
 // Desafio diário: um novo MV por dia, em sequência.
 const startDate = new Date(2026, 10, 2); // 02/11/2026
-const today = new Date();
+const today = new Date(2026, 10, 3);
 
 startDate.setHours(0, 0, 0, 0);
 today.setHours(0, 0, 0, 0);
