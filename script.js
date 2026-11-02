@@ -25,7 +25,7 @@ const daysPassed = Math.floor(
   (today - startDate) / (1000 * 60 * 60 * 24)
 );
 
-const currentMV = daysPassed < catalog.length
+const currentMV = daysPassed >= 0 && daysPassed < catalog.length
   ? catalog[daysPassed]
   : null;
 
