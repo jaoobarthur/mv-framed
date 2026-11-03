@@ -9,13 +9,15 @@ const catalog = [
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
   },
   {
-    id: "thriller",
-    title: "Thriller",
-    artist: "Michael Jackson",
-    answers: ["thriller"],
-    imageFolder: "images/thriller/",
-    frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
-  },
+  id: "thriller",
+  title: "Thriller",
+  artist: "Michael Jackson",
+  album: "Thriller",
+  year: "1982",
+  answers: ["thriller"],
+  imageFolder: "images/thriller/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
   {
     id: "hello",
     title: "Hello",
