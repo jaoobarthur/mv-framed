@@ -193,6 +193,7 @@ message.textContent = "Wrong! Here's your next frame.";
 guessInput.value = "";
 showFrame(unlockedFrames);
 guessInput.focus();
+}
 
 guessInput.addEventListener("input", showSuggestions);
 
