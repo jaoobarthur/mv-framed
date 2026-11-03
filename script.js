@@ -156,9 +156,11 @@ function checkGuess() {
 
 if (unlockedFrames === 6) {
   message.innerHTML = `
-    <h3>❌ Wrong! The answer was:</h3>
-    <h2>${currentMV.title}</h2>
-  `;
+  <h3>❌ Wrong! The answer was:</h3>
+  <h2>${currentMV.title}</h2>
+  <p>${currentMV.artist}</p>
+  <p>${currentMV.album} • ${currentMV.year}</p>
+`;
   guessInput.disabled = true;
   guessButton.disabled = true;
   return;
