@@ -124,9 +124,12 @@ const catalog = [
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
 },
 {
+  {
   id: "ordinary",
   title: "Ordinary",
   artist: "Alex Warren",
+  album: "You'll Be Alright, Kid",
+  year: "2025",
   answers: ["ordinary"],
   imageFolder: "images/ordinary/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -135,6 +138,8 @@ const catalog = [
   id: "friends-marshmello",
   title: "FRIENDS",
   artist: "Marshmello, Anne-Marie",
+  album: "Speak Your Mind",
+  year: "2018",
   answers: ["friends", "friends marshmello"],
   imageFolder: "images/FRIENDS-marshmello/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -143,6 +148,8 @@ const catalog = [
   id: "lazy-song",
   title: "The Lazy Song",
   artist: "Bruno Mars",
+  album: "Doo-Wops & Hooligans",
+  year: "2011",
   answers: ["the lazy song", "lazy song"],
   imageFolder: "images/lazy-song/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -151,6 +158,8 @@ const catalog = [
   id: "runaway",
   title: "Runaway",
   artist: "AURORA",
+  album: "All My Demons Greeting Me as a Friend",
+  year: "2015",
   answers: ["runaway"],
   imageFolder: "images/runaway/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -159,6 +168,8 @@ const catalog = [
   id: "baby-justin-bieber",
   title: "Baby",
   artist: "Justin Bieber, Ludacris",
+  album: "My World 2.0",
+  year: "2010",
   answers: ["baby", "baby justin bieber"],
   imageFolder: "images/baby-justin-bieber/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -167,6 +178,8 @@ const catalog = [
   id: "happier-marshmello",
   title: "Happier",
   artist: "Marshmello",
+  album: "Joytime II",
+  year: "2018",
   answers: ["happier"],
   imageFolder: "images/happier-marshmello/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
