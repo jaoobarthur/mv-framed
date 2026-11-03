@@ -143,21 +143,26 @@ function checkGuess() {
   ].map(normalizeAnswer);
 
   if (acceptedAnswers.includes(guess)) {
-    gameWon = true;
-    message.textContent = "CORRECT! YOU GOT IT!";
-    guessInput.disabled = true;
-    guessButton.disabled = true;
-    renderButtons();
-    return;
-  }
+  gameWon = true;
+  message.innerHTML = `
+    <h2>You got it!</h2>
+    <p>Grammy-worthy performance! ✨</p>
+  `;
+  guessInput.disabled = true;
+  guessButton.disabled = true;
+  renderButtons();
+  return;
+}
 
-  if (unlockedFrames === 6) {
-    message.textContent =
-      "GAME OVER! The answer was " + currentMV.title + ".";
-    guessInput.disabled = true;
-    guessButton.disabled = true;
-    return;
-  }
+if (unlockedFrames === 6) {
+  message.innerHTML = `
+    <h3>❌ Wrong! The answer was:</h3>
+    <h2>${currentMV.title}</h2>
+  `;
+  guessInput.disabled = true;
+  guessButton.disabled = true;
+  return;
+}
 
   unlockedFrames++;
   message.textContent = "Wrong! Here's your next frame.";
