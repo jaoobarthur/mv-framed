@@ -2,6 +2,7 @@
 let currentFrame = 1;
 let unlockedFrames = 1;
 let gameWon = false;
+let guessResults = [];
 
 const imageBase =
   "https://raw.githubusercontent.com/jaoobarthur/mv-framed/main/";
@@ -144,12 +145,21 @@ function checkGuess() {
 
   if (acceptedAnswers.includes(guess)) {
   gameWon = true;
+  guessResults.push("🟩");
+
+  const resultSquares = [
+    ...guessResults,
+    ...Array(6 - guessResults.length).fill("⬜")
+  ].join(" ");
+
   message.innerHTML = `
-  <div class="win-message">
-    <h2>You got it!</h2>
-    <p>Grammy-worthy performance! ✨</p>
-  </div>
-`;
+    <div class="win-message">
+      <h2>You got it!</h2>
+      <p>Grammy-worthy performance! ✨</p>
+      <p class="result-squares">${resultSquares}</p>
+    </div>
+  `;
+
   guessInput.disabled = true;
   guessButton.disabled = true;
   renderButtons();
@@ -157,25 +167,32 @@ function checkGuess() {
 }
 
 if (unlockedFrames === 6) {
+  guessResults.push("🟥");
+
+  const resultSquares = guessResults.join(" ");
+
   message.innerHTML = `
-  <div class="lose-message">
-    <h3>❌ Wrong! The answer was:</h3>
-    <h2>${currentMV.title}</h2>
-    <p>${currentMV.artist}</p>
-    <p>${currentMV.album} • ${currentMV.year}</p>
-  </div>
-`;
+    <div class="lose-message">
+      <h3>❌ Wrong! The answer was:</h3>
+      <h2>${currentMV.title}</h2>
+      <p>${currentMV.artist}</p>
+      <p>${currentMV.album} • ${currentMV.year}</p>
+      <p class="result-squares">${resultSquares}</p>
+    </div>
+  `;
+
   guessInput.disabled = true;
   guessButton.disabled = true;
   return;
 }
 
-  unlockedFrames++;
-  message.textContent = "Wrong! Here's your next frame.";
-  guessInput.value = "";
-  showFrame(unlockedFrames);
-  guessInput.focus();
-}
+  guessResults.push("🟥");
+
+unlockedFrames++;
+message.textContent = "Wrong! Here's your next frame.";
+guessInput.value = "";
+showFrame(unlockedFrames);
+guessInput.focus();
 
 guessInput.addEventListener("input", showSuggestions);
 
