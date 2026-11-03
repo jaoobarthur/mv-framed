@@ -210,5 +210,95 @@ const catalog = [
   answers: ["happier"],
   imageFolder: "images/happier-marshmello/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "despacito",
+  title: "Despacito",
+  artist: "Luis Fonsi, Daddy Yankee",
+  album: "Vida",
+  year: "2017",
+  answers: ["despacito"],
+  imageFolder: "images/despacito/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "senorita",
+  title: "Señorita",
+  artist: "Shawn Mendes, Camila Cabello",
+  album: "Shawn Mendes / Romance",
+  year: "2019",
+  answers: ["senorita", "señorita"],
+  imageFolder: "images/senorita/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "7-things",
+  title: "7 Things",
+  artist: "Miley Cyrus",
+  album: "Breakout",
+  year: "2008",
+  answers: ["7 things", "seven things"],
+  imageFolder: "images/7-things/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "cups",
+  title: "Cups (Pitch Perfect's When I'm Gone)",
+  artist: "Anna Kendrick",
+  album: "Pitch Perfect: Original Motion Picture Soundtrack",
+  year: "2013",
+  answers: ["cups", "when im gone", "when i'm gone"],
+  imageFolder: "images/cups/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "look-what-you-made-me-do",
+  title: "Look What You Made Me Do",
+  artist: "Taylor Swift",
+  album: "reputation",
+  year: "2017",
+  answers: ["look what you made me do", "lwymmd"],
+  imageFolder: "images/look-what-you-made-me-do/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "titanium",
+  title: "Titanium",
+  artist: "Sia, David Guetta",
+  album: "Nothing but the Beat",
+  year: "2011",
+  answers: ["titanium"],
+  imageFolder: "images/titanium/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "mad-hatter",
+  title: "Mad Hatter",
+  artist: "Melanie Martinez",
+  album: "Cry Baby",
+  year: "2016",
+  answers: ["mad hatter"],
+  imageFolder: "images/mad-hatter/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "take-me-to-church",
+  title: "Take Me to Church",
+  artist: "Hozier",
+  album: "Hozier",
+  year: "2013",
+  answers: ["take me to church"],
+  imageFolder: "images/take-me-to-church/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "bohemian",
+  title: "Bohemian Rhapsody",
+  artist: "Queen",
+  album: "A Night at the Opera",
+  year: "1975",
+  answers: ["bohemian rhapsody"],
+  imageFolder: "images/bohemian/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
 }
 ];
