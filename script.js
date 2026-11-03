@@ -145,9 +145,11 @@ function checkGuess() {
   if (acceptedAnswers.includes(guess)) {
   gameWon = true;
   message.innerHTML = `
+  <div class="win-message">
     <h2>You got it!</h2>
     <p>Grammy-worthy performance! ✨</p>
-  `;
+  </div>
+`;
   guessInput.disabled = true;
   guessButton.disabled = true;
   renderButtons();
@@ -156,10 +158,12 @@ function checkGuess() {
 
 if (unlockedFrames === 6) {
   message.innerHTML = `
-  <h3>❌ Wrong! The answer was:</h3>
-  <h2>${currentMV.title}</h2>
-  <p>${currentMV.artist}</p>
-  <p>${currentMV.album} • ${currentMV.year}</p>
+  <div class="lose-message">
+    <h3>❌ Wrong! The answer was:</h3>
+    <h2>${currentMV.title}</h2>
+    <p>${currentMV.artist}</p>
+    <p>${currentMV.album} • ${currentMV.year}</p>
+  </div>
 `;
   guessInput.disabled = true;
   guessButton.disabled = true;
