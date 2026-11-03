@@ -159,4 +159,17 @@ p {
 
 #message {
   margin-top: 20px;
+  text-align: center;
+}
+
+#message h2 {
+  margin-bottom: 8px;
+}
+
+#message h3 {
+  margin-bottom: 12px;
+}
+
+#message p {
+  margin: 5px 0;
 }
