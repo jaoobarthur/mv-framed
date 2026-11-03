@@ -4,6 +4,8 @@ const catalog = [
     id: "stressed-out",
     title: "Stressed Out",
     artist: "twenty one pilots",
+    album: "Blurryface",
+    year: "2015",
     answers: ["stressed out"],
     imageFolder: "images/stressed-out/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -22,6 +24,8 @@ const catalog = [
     id: "hello",
     title: "Hello",
     artist: "Adele",
+    album: "25",
+    year: "2015",
     answers: ["hello"],
     imageFolder: "images/hello/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -30,6 +34,8 @@ const catalog = [
     id: "blank-space",
     title: "Blank Space",
     artist: "Taylor Swift",
+    album: "1989",
+    year: "2014",
     answers: ["blank space"],
     imageFolder: "images/blank-space/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -38,6 +44,8 @@ const catalog = [
     id: "deja-vu",
     title: "deja vu",
     artist: "Olivia Rodrigo",
+    album: "SOUR",
+    year: "2021",
     answers: ["deja vu", "deja-vu"],
     imageFolder: "images/deja-vu/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -46,6 +54,8 @@ const catalog = [
     id: "shape-of-you",
     title: "Shape of You",
     artist: "Ed Sheeran",
+    album: "÷ / Divide",
+    year: "2017",
     answers: ["shape of you"],
     imageFolder: "images/shape-of-you/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -54,6 +64,8 @@ const catalog = [
     id: "last-friday-night",
     title: "Last Friday Night (T.G.I.F.)",
     artist: "Katy Perry",
+    album: "Teenage Dream",
+    year: "2011",
     answers: ["last friday night", "last friday night tgif", "tgif"],
     imageFolder: "images/last-friday-night/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -62,6 +74,8 @@ const catalog = [
     id: "like-a-virgin",
     title: "Like a Virgin",
     artist: "Madonna",
+    album: "Like a Virgin",
+    year: "1984",
     answers: ["like a virgin"],
     imageFolder: "images/like-a-virgin/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -70,7 +84,9 @@ const catalog = [
     id: "whats-up",
     title: "What's Up?",
     artist: "4 Non Blondes",
-    answers: ["whats up", "what's up"],
+    album: "Bigger, Better, Faster, More!",
+    year: "1993",
+    answers: ["whats up", "what's up", "what's up?"],
     imageFolder: "images/whats-up/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
   },
@@ -79,6 +95,8 @@ const catalog = [
     id: "because-i-liked-a-boy",
     title: "because i liked a boy",
     artist: "Sabrina Carpenter",
+    album: "emails i can't send",
+    year: "2022",
     answers: ["because i liked a boy"],
     imageFolder: "images/because-i-liked-a-boy/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -87,6 +105,8 @@ const catalog = [
     id: "new-rules",
     title: "New Rules",
     artist: "Dua Lipa",
+    album: "Dua Lipa",
+    year: "2017",
     answers: ["new rules"],
     imageFolder: "images/new-rules/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -95,6 +115,8 @@ const catalog = [
     id: "baby-one-more-time",
     title: "...Baby One More Time",
     artist: "Britney Spears",
+    album: "...Baby One More Time",
+    year: "1998",
     answers: ["baby one more time", "baby one more time britney"],
     imageFolder: "images/baby-one-more-time/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -103,6 +125,8 @@ const catalog = [
     id: "beautiful-things",
     title: "Beautiful Things",
     artist: "Benson Boone",
+    album: "Fireworks & Rollerblades",
+    year: "2024",
     answers: ["beautiful things"],
     imageFolder: "images/beautiful-things/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -111,6 +135,8 @@ const catalog = [
     id: "uptown-funk",
     title: "Uptown Funk",
     artist: "Mark Ronson ft. Bruno Mars",
+    album: "Uptown Special",
+    year: "2014",
     answers: ["uptown funk"],
     imageFolder: "images/uptown-funk/",
     frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
@@ -119,6 +145,8 @@ const catalog = [
   id: "take-on-me",
   title: "Take On Me",
   artist: "a-ha",
+  album: "Hunting High and Low",
+  year: "1984",
   answers: ["take on me"],
   imageFolder: "images/take-on-me/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
