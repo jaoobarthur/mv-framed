@@ -301,4 +301,154 @@ const catalog = [
   imageFolder: "images/bohemian/",
   frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
 }
+{
+  id: "animals",
+  title: "Animals",
+  artist: "Maroon 5",
+  album: "V",
+  year: "2014",
+  answers: ["animals"],
+  imageFolder: "images/animals/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "the-cure",
+  title: "the cure",
+  artist: "Olivia Rodrigo",
+  album: "you seem pretty sad for a girl so in love",
+  year: "2026",
+  answers: ["the cure"],
+  imageFolder: "images/the-cure/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "cardigan",
+  title: "cardigan",
+  artist: "Taylor Swift",
+  album: "folklore",
+  year: "2020",
+  answers: ["cardigan"],
+  imageFolder: "images/cardigan/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "hot-to-go",
+  title: "HOT TO GO!",
+  artist: "Chappell Roan",
+  album: "The Rise and Fall of a Midwest Princess",
+  year: "2023",
+  answers: ["hot to go", "hot to go!"],
+  imageFolder: "images/hot-to-go/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "counting-stars",
+  title: "Counting Stars",
+  artist: "OneRepublic",
+  album: "Native",
+  year: "2013",
+  answers: ["counting stars"],
+  imageFolder: "images/counting-stars/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "espresso",
+  title: "Espresso",
+  artist: "Sabrina Carpenter",
+  album: "Short n' Sweet",
+  year: "2024",
+  answers: ["espresso"],
+  imageFolder: "images/espresso/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "tik-tok",
+  title: "TiK ToK",
+  artist: "Ke$ha",
+  album: "Animal",
+  year: "2009",
+  answers: ["tik tok", "tik-tok", "tik tok"],
+  imageFolder: "images/tik-tok/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "habits",
+  title: "Habits (Stay High)",
+  artist: "Tove Lo",
+  album: "Queen of the Clouds",
+  year: "2013",
+  answers: ["habits", "habits stay high", "stay high"],
+  imageFolder: "images/habits/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "work-from-home",
+  title: "Work From Home",
+  artist: "Fifth Harmony, Ty Dolla $ign",
+  album: "7/27",
+  year: "2016",
+  answers: ["work from home"],
+  imageFolder: "images/work-from-home/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "shake-it-off",
+  title: "Shake It Off",
+  artist: "Taylor Swift",
+  album: "1989",
+  year: "2014",
+  answers: ["shake it off"],
+  imageFolder: "images/shake-it-off/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "bring-me-to-life",
+  title: "Bring Me To Life",
+  artist: "Evanescence",
+  album: "Fallen",
+  year: "2003",
+  answers: ["bring me to life"],
+  imageFolder: "images/bring-me-to-life/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "chandelier",
+  title: "Chandelier",
+  artist: "Sia",
+  album: "1000 Forms of Fear",
+  year: "2014",
+  answers: ["chandelier"],
+  imageFolder: "images/chandelier/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "heathens",
+  title: "Heathens",
+  artist: "twenty one pilots",
+  album: "Suicide Squad: The Album",
+  year: "2016",
+  answers: ["heathens"],
+  imageFolder: "images/heathens/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "enemy",
+  title: "Enemy",
+  artist: "Imagine Dragons, JID",
+  album: "Arcane League of Legends (Soundtrack from the Animated Series)",
+  year: "2021",
+  answers: ["enemy"],
+  imageFolder: "images/enemy/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+},
+{
+  id: "supalonely",
+  title: "Supalonely",
+  artist: "BENEE, Gus Dapperton",
+  album: "Stella & Steve",
+  year: "2019",
+  answers: ["supalonely"],
+  imageFolder: "images/supalonely/",
+  frames: ["001.jpg", "002.jpg", "003.jpg", "004.jpg", "005.jpg", "006.jpg"]
+}
 ];
